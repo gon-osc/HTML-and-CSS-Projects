@@ -1,0 +1,19 @@
+table {
+	border: 2px solid steelblue;
+}
+
+td:hover {
+	background-color: grey;
+	color: darkcyan;
+}
+
+tr, th {
+	background-color: firebrick;
+	color: cornsilk;
+}
+
+tr, td {
+	background-color: lightblue;
+	color: maroon;
+}
+	
