@@ -1,0 +1,191 @@
+/*==========================
+ Author: Oscar Gonzalez
+ ===========================*/
+
+hmtl {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+footer,
+nav {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2fcfffe1;
+}
+
+h2 {
+    line-height: 50px;
+    color: #2fcfffe1;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+
+/*=========================================
+Contact STYLES
+===========================================*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(25, 171, 216, 0.651);
+    box-shadow: 2px 2px 10px 0 rgba(5, 139, 248, 0.685);
+}
+
+#contact {
+    background-color: #f5f3f3;
+}
+
+.reservation {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(25, 171, 216, 0.651);
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.reservation h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161b;
+    font-weight: 800;
+    font-size: 1.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.reservation h2 span {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161b;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: .7pt;
+    word-spacing: .5pt;
+}
+
+.reservation p {
+    color: #13161b;
+    width: 50%;
+}
+
+.reservation form {
+    font-size: 50px;
+    outline: none;
+    font-weight: 600;
+    color: #e6eaee;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid e6eaee;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgb(227, 222, 222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.reservation input[type="text"] {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 2% 1% 2% 8%;
+    width: 80%;
+    border-top: 1px solid #090b0d;
+    border-right: 2px solid #338de2;
+    border-bottom: 2px solid #338de2;
+    border-left: 1px solid #090b0d;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #13161b;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.reservation input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(25, 171, 216, 0.651);
+}
+
+.form-spacer {
+    padding: 20px 29px;
+}
+
+.terms {
+    margin: 30px 1px 0 0;
+    margin-top: 10%;
+    font-size: 16px;
+    line-height: 5px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: relative;
+    float: right;
+}
+
+.terms:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.submit input[type="submit"] {
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 30%;
+    padding: 7px 0px;
+    width: 25%;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #ebe2e2;
+}
+
+.submit input[type="submit"]:hover {
+    color: #000;
+    background-color: #ebe2e2;
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}

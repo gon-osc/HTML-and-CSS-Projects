@@ -3,17 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Tour the new 7 Wonders of the world. | Tours </title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#media" ><li>VIDEO</li></a>
 					<a href="#gallery" ><li>GALLERY</li></a>
 					<a href="#contact" ><li>RESERVATIONS</li></a>
-					<a href="#video" ><li>VIDEO</li><a>
 				</ul>
 			</div>
 		</div>
@@ -30,11 +31,10 @@
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section">
-			<div id="gallery">
+		<section id ="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
-				
+				<div class="flex-container">
 					<!-- PHOTO-CONTAINER 1 -->
 					<div class="photo-container">
 						<div class="photo">
@@ -123,19 +123,20 @@
 			</div>
 		</section>
 		 <!--END GALLERY -->
-		 
-		 		<!-- VIDEO -->
-		<div id="video">
+
+		<!-- VIDEO -->
+		<div id="media">
 			<div class="container">
-				<div class="text-center">
-					<span class="head-main">The New 7 Wonders Of The World Video.</span>
+				<h1>Video</h1>
+				<div class="flex-container">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/_00CC7BIHhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
-		<!-- VIDEO -->
+		<!-- END VIDEO -->
 		 
-		 <!-- RSVP -->
+
+	<!-- RSVP -->
 		 <section id="contact">
 			<div class="container">
 				<div class="heading-padding">
@@ -144,9 +145,7 @@
 						<h2><span>Your next adventure is one click away.</span>
 							<br />Reserve your tour today!
 						</h2>
-						</p>
-							If you would like more information on one of our tours. <br>Please provide us with your basic contact information.
-						</p>
+						</p>If you would like more information on one of our tours, Please provide us with your basic contact information.</p>
 						<div>
 							<form action= "" method="post">
 								<input class="rsvp" type="text" value="First Name">
@@ -168,7 +167,7 @@
 		<!-- END RSVP -->
 		
 		<!-- FOOTER -->
-		<div>
+		<div id+"footer">
 			www.newsevenwonderstours.com &nbsp;|&nbsp; &copy; 2020
 		</div>
 		<!-- END FOOTER -->
