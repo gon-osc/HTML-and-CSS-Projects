@@ -31,6 +31,7 @@
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
+		<!-- GALLERY -->
 		<section id ="gallery">
 			<div class="container">
 				<h1>Gallery</h1>
@@ -38,7 +39,7 @@
 					<!-- PHOTO-CONTAINER 1 -->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_1.jpg" alt="">
+							<img src="./images/thumb/thumbnail_1.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p> Visit Christ the Redeemer - Brazil. <br>Best price guaranteed, book your tour today!</p>
@@ -50,7 +51,7 @@
 					<!-- PHOTO-CONTAINER 2 -->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_2.jpg" alt="">
+							<img src="./images/thumb/thumbnail_2.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p> Visit the Taj Mahal - India.<br> Best price guaranteed, book your tour today!</p>
@@ -62,7 +63,7 @@
 					<!-- PHOTO-CONTAINER 3 -->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_3.jpg" alt="">
+							<img src="./images/thumb/thumbnail_3.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p> Visit Machu Picchu - Peru.<br> Best price guaranteed, book your tour today!</p>
@@ -74,7 +75,7 @@
 					<!-- PHOTO-CONTAINER 4 -->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_4.jpg" alt="">
+							<img src="./images/thumb/thumbnail_4.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p> Visit Chichén Itzá - Mexico.<br> Best price guaranteed, book your tour today!</p>
@@ -86,7 +87,7 @@
 					<!-- PHOTO-CONTAINER 5 -->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_5.jpg" alt="">
+							<img src="./images/thumb/thumbnail_5.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p> Visit Great Wall of China - China.<br> Best price guaranteed, book your tour today!</p>
@@ -98,7 +99,7 @@
 					<!-- PHOTO-CONTAINER 6 -->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_6.jpg" alt="">
+							<img src="./images/thumb/thumbnail_6.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p> Visit Petra - Jordan.<br> Best price guaranteed, book your tour today!</p>
@@ -110,7 +111,7 @@
 					<!-- PHOTO-CONTAINER 7 -->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_7.jpg" alt="">
+							<img src="./images/thumb/thumbnail_7.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p> Visit The Colosseum - Italy<br> Best price guaranteed, book your tour today!</p>
@@ -118,9 +119,86 @@
 						</div>
 					</div>
 					<!-- END PHOTO-CONTAINER 7 -->
+
+		            <div id="myModal" class="modal">
+		                <span class="close cursor" onclick="closeModal()">&times;</span>
+		            <div class="modal-content">
+
+			        <div class="mySlides">
+			            <div class="numbertext">1 / 4</div>
+			            <img src="./images/thumb/thumbnail_1.jpg" style="width:100%">
+                        <p> Visit Christ the Redeemer - Brazil. <br>Best price guaranteed, book your tour today!</p>
+			        </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="./images/thumb/thumbnail_2.jpg" style="width:100%">
+                        <p> Visit the Taj Mahal - India.<br> Best price guaranteed, book your tour today!</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="./images/thumb/thumbnail_3.jpg" style="width:100%">
+                        <p> Visit Machu Picchu - Peru.<br> Best price guaranteed, book your tour today!</p>
+                    </div>
+                    
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="./images/thumb/thumbnail_4.jpg" style="width:100%">
+                        <p> Visit Chichén Itzá - Mexico.<br> Best price guaranteed, book your tour today!</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 4</div>
+                        <img src="./images/thumb/thumbnail_5.jpg" style="width:100%">
+                        <p> Visit Great Wall of China - China.<br> Best price guaranteed, book your tour today!</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 4</div>
+                        <img src="./images/thumb/thumbnail_6.jpg" style="width:100%">
+                        <p> Visit Petra - Jordan.<br> Best price guaranteed, book your tour today!</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 4</div>
+                        <img src="./images/thumb/thumbnail_7.jpg" style="width:100%">
+                        <p> Visit The Colosseum - Italy<br> Best price guaranteed, book your tour today!</p>
+                    </div>
+			
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div class="caption-container">
+                    <p id="caption"></p>
+                    </div>
+
+
+                    <div class="column">
+                        <img class="demo cursor" src="./images/thumb/thumbnail_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Christ the Redeemer - Brazil">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./images/thumb/thumbnail_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Taj Mahal - India">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./images/thumb/thumbnail_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Machu Picchu - Peru">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./images/thumb/thumbnail_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Chichén Itzá - Mexico">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./images/thumb/thumbnail_5.jpg" style="width:100%" onclick="currentSlide(4)" alt="Great Wall of China - China">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./images/thumb/thumbnail_6.jpg" style="width:100%" onclick="currentSlide(4)" alt="Petra - Jordan">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./images/thumb/thumbnail_7.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Colosseum - Italy">
+                    </div>
+                </div>
+            
 					
-				</div>
-			</div>
+		    </div>
 		</section>
 		 <!--END GALLERY -->
 
@@ -172,6 +250,9 @@
 		</div>
 		<!-- END FOOTER -->
 	
+		<div>
+			<script src="./JS/one_page_website.js"></script>
+		</div>
 	</body>
 </html>
 						
